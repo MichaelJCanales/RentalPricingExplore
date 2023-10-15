@@ -5,7 +5,7 @@ Credit to the [Data Science Working Group](http://datascience.codeforsanfrancisc
 Begin reading `instructions.md` to get started.
 
 ## Project Intro/Objective
-The purpose of this project is ________. (Describe the main goals of the project and potential civic impact. Limit to a short paragraph, 3-6 Sentences)
+The purpose of this project is to extract an analysis of rental properties in Taipei City provided by a real estate company. We are to determine how much the real estate company should charge for their properties. 
 
 ### Methods Used
 * Inferential Statistics
