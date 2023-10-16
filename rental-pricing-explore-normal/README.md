@@ -1,9 +1,5 @@
 # rental-pricing-explore
 
-Credit to the [Data Science Working Group](http://datascience.codeforsanfrancisco.org) for this template. To complete this project, delete all template text (save for the headers) and fill in your own information.
-
-Begin reading `instructions.md` to get started.
-
 ## Project Intro/Objective
 The purpose of this project is to extract an analysis of rental properties in Taipei City provided by a real estate company. We are to determine how much the real estate company should charge for their properties. 
 
@@ -25,4 +21,14 @@ The purpose of this project is to extract an analysis of rental properties in Ta
 * etc. 
 
 ## Project Description
-(Provide more detailed overview of the project.  Talk a bit about your data sources and what questions and hypothesis you are exploring. What specific data analysis/visualization and modelling work are you using to solve the problem? What blockers and challenges are you facing?  Feel free to number or bullet point things here)
+
+We were given a dataset provided by a real estate company to "clean" up errors and to extract an analysis of rental properties. The dataset contained various information of each property. To the houses age, location and the price of the units area. It also provided the number of convenience stores and the distance to the nearest MRT station. 
+
+We use the data to see how it will influence the rental housing prices. We explored the distribution of the variables in the dataset and plotted histograms, scatter plots, and a heatmap to visualize the data. To predict the rental housing prices we'll use a linear regression model to  evaluate and to explain and assess the rental prices. 
+
+### Challenges 
+* Numeric column interpreted as a string
+* Column not relevant to the analysis
+* Rows with missing values 
+* Long column names
+* Unknown units (distance , currency)  
